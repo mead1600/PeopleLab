@@ -7,7 +7,7 @@ public class Runner {
 
     // Methods
     public static void main(String[] args) {
-        int classSize = 32;
+        int classSize = 36;
 
         Teacher ourTeacher = new Teacher("Nathan","Folwell","AP Java","Mr");
 
@@ -18,6 +18,7 @@ public class Runner {
 
         Classroom ourClassroom = new Classroom(ourStudents, ourTeacher);
 
+        //System.out.println(ourClassroom.fillseats());
         System.out.println(ourClassroom.printClass());
         System.out.println("\nClass Average: " + ourClassroom.classAverage());
     }
