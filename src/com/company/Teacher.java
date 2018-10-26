@@ -32,7 +32,7 @@ public class Teacher extends Person {
     }
 
     /**
-     * @return "Title. FamilyName"
+     * @return "Title. FamilyName "
      */
 
     public String toString()
